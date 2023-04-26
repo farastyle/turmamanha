@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.13 on win32)" generated="20230426 10:01:58.546" rpa="true" schemaversion="3">
+<suite id="s1" name="Tasks" source="d:\robosparebin\tasks.robot">
+<test id="s1-t1" name="Set environment variable" line="9">
+<kw name="xyz">
+<var>${variavel}</var>
+<msg timestamp="20230426 10:02:00.776" level="FAIL">No keyword with name 'xyz' found.</msg>
+<status status="FAIL" starttime="20230426 10:02:00.775" endtime="20230426 10:02:00.784"/>
+</kw>
+<kw name="Entrar no site e clicar no banner">
+<arg>https://robotsparebinindustries.com/#/robot-order</arg>
+<status status="NOT RUN" starttime="20230426 10:02:00.786" endtime="20230426 10:02:00.786"/>
+</kw>
+<status status="FAIL" starttime="20230426 10:02:00.768" endtime="20230426 10:02:00.787">No keyword with name 'xyz' found.</status>
+</test>
+<doc>Robo que faz ordens dos robos e salva em PDF os recibos e no final cria um arquivo Zip.</doc>
+<status status="FAIL" starttime="20230426 10:01:58.563" endtime="20230426 10:02:00.790"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tasks</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="Tasks">Tasks</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
